@@ -1,0 +1,27 @@
+package class6;
+
+public class WhileLoops77 {
+    public static void main(String[] args) {
+        //Print below sequence with the help of loop
+          //1 2 3 4 6 7 8  9 11 12 13 14 16
+      /*  int number = 0;   // THIS 2 CONDITIONS ARE BOTH RIGHT.
+
+        while (number <= 16){
+
+            if (number % 5 != 0){
+                System.out.println(number);
+            }
+            number++;
+        }
+*/
+      int number=1;
+      while (number<=16) {
+          if(number==5 || number==10 || number==15) {
+          }else{
+              System.out.println(number);
+          }
+          number++;
+      }
+
+    }
+}
