@@ -1,0 +1,7 @@
+Loops help us repeat instructions in code for example if we have to print the numbers
+from 1 to 100 one way we can do this is by copying and pasting the code which is bad and not scalable other way
+of doing this using loops:
+There are 4 type of loops:
+1) While
+2)Do While
+3)For
