@@ -1,7 +1,9 @@
 package class11;
 
 public class Dog {
-  //atributes/ properties /field
+
+    public String size;
+
         String name;
         String breed;
         int age;

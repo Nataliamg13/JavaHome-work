@@ -6,7 +6,15 @@ public class Phone {
 
     String type;
     String brand;
+    String provider;
     String color;
 
 
-}
+    void faceRecognition(){ System.out.println("Unlock your phone:");}
+    void display() {System.out.println("6.5 inch screen");}
+    void camera () {
+        System.out.println("30 Mega Pixel Camera");}
+    }
+
+
+
