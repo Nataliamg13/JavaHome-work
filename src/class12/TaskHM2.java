@@ -4,10 +4,10 @@ public class TaskHM2 {
     public static void main(String[] args) {
         // Create a String and print it in reverse order (Sunday → yadnuS).
 
-        String sunday="Sunday";
-        System.out.println(sunday);
-        for (int i = 5; i>=0 ; i--) {
-            System.out.print(sunday.charAt(i));
+        String str="Sunday";
+        System.out.println(str);
+        for (int i = str.length()-1; i>=0 ; i--) {
+            System.out.print(str.charAt(i));
         }}}
 
 
