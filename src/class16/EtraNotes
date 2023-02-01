@@ -1,0 +1,6 @@
+Summary:
+In Java, access modifiers are keywords used in class, method, and variable declarations that determine the level of access to the members of a class. The four access modifiers in Java are:
+1.    public - The member can be accessed from anywhere.
+2.    protected - The member can be accessed within the same package and by subclasses in other packages.
+3.    default (no keyword) - The member can be accessed within the same package.
+4.    private - The member can only be accessed within the same class.
