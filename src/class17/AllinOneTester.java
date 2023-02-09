@@ -3,7 +3,7 @@ package class17;
 public class AllinOneTester {
     public static void main(String[] args) {
         System.out.println("Private");
-        AllinOne num1=new AllinOne("Mandy",5000,2019,"JO");
+        AllinOne num1=new AllinOne("JO",6000,2019,"Mandy");
         num1.printInfo();
 
         System.out.println("Default");
@@ -11,7 +11,7 @@ public class AllinOneTester {
         num2.printInfo();
 
         System.out.println("Public");
-        AllinOne num3=new AllinOne("Summer",4000,2022,"Ira");
+        AllinOne num3=new AllinOne("Summer",3000,2020,"Greg");
         num3.printInfo();
 
         System.out.println("Protected");

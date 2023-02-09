@@ -32,8 +32,9 @@ protected AllinOne(int sal,String empName,String lastN) {
     name=empName;
     lastName=lastN;
     }
-     void printInfo(){
-        System.out.println("Workers name:"+name+" Last name "+lastName+" salary per month "+salary+" start year "+year);
+    public void printInfo(){
+        System.out.println("Workers name:"+name+" Last name "+lastName+" salary per" +
+                " month "+salary+" start year "+year);
     }
     public static void main(String [] args ) {
         AllinOne num1=new AllinOne("Mandy","JO",5000,2019);
