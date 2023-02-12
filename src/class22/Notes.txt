@@ -20,5 +20,5 @@ Syntax of Override?
 
 Rules:
 1) To override a method there must be a parent -child relationship between two classes.
-2)If something can't be inherited we can't override it.For example privet methods and constructions.
+2)If something can't be inherited we can't override it.For example private methods and constructions.
 3)
