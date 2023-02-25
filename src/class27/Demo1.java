@@ -10,7 +10,7 @@ public class Demo1 {
         displayNames(names);
     }
     public static void displayNames(String [] names){
-
+        // write code here to print all of the names from array in console
         for(String name:names){
             System.out.println(name);
         }}
