@@ -11,13 +11,12 @@ public class HMTask3 {
 
     public static void main(String[] args) {
        Map<String, Integer> employMap = new HashMap<>();
-       employMap.put("John Smith ", 100000);
-       employMap.put("", 99000);
-       employMap.put("Boss", 34000);
-       employMap.put("Dan", 90520);
-       employMap.put("Me", 93400);
+
+       employMap.put("John  Smith", 100000);
+       employMap.put("Ioana", 99000);
+       employMap.put("Vasile", 34000);
+       employMap.put("Fedia", 90520);
+       employMap.put("Tolea", 93400);
        System.out.println(employMap);
-
-
-
-        }}
+    }
+}
